@@ -41,15 +41,19 @@ Recommened prerequist: [create a new ROS package](http://wiki.ros.org/ROS/Tutori
 - CMakeLists.txt  
 - package.xml 
 - .gitignore
+- .rosinstall (required when the repo is public)
 - LICENSE
 - README.md
 
-### Recommended directories and files
-- launch (dir)
-- src/demo (dir)
-- src/test (dir)
-- src/utilities (dir)
-- .rosinstall
+### Recommended directories
+- launch 
+- src/demo 
+- src/test 
+- src/utilities 
+
+### The "data" directory
+- data folder is only used during development, remove it when you make the repo public
+- do not upload files larger than 10MB
 
 
 ## Change Package Name
