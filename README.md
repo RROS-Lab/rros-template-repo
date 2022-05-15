@@ -4,6 +4,52 @@ the template repository of RROS lab
 Recommened prerequist: [create a new ROS package](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
 
 ## Structure
+    .  
+    ├── .rosinstall  
+    ├── action  
+    │   └── actionRROS.action  
+    ├── CMakeLists.txt  
+    ├── data  
+    │   └── test_data1.csv  
+    ├── include  
+    │   └── rros_template_repo  
+    │       └── rros.hpp  
+    ├── launch  
+    │   └── rros.launch  
+    ├── LICENSE  
+    ├── msg  
+    │   └── MessageRROS.msg  
+    ├── package.xml  
+    ├── README.md  
+    ├── scripts  
+    │   └── rros.py  
+    ├── src  
+    │   ├── demo  
+    │   │   └── rros_demo.cpp  
+    │   ├── rros.cpp  
+    │   ├── test  
+    │   │   └── unit_test.cpp  
+    │   └── utilities  
+    │       └── rros_utility.cpp  
+    └── srv  
+        └── ServiceRROS.srv  
+
+### Required directories and files
+- include
+- src 
+- CMakeLists.txt  
+- package.xml 
+- .rosinstall
+- .gitignore
+- LICENSE
+- README.md
+
+### Recommended directories
+- launch
+- src/demo
+- src/test
+- src/utilities
+
 
 ## Change Package Name
 If you want to change the package name, here are what you should change:  
