@@ -2,7 +2,7 @@
 
 import rospy
 
-
+# from A import B
 
 def main(args=None):
   rospy.init_node('/* node_name */')

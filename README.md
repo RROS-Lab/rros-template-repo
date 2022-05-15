@@ -5,6 +5,7 @@ Recommened prerequist: [create a new ROS package](http://wiki.ros.org/ROS/Tutori
 
 ## Structure
     .  
+    ├── .gitignore  
     ├── .rosinstall  
     ├── action  
     │   └── actionRROS.action  
@@ -35,20 +36,20 @@ Recommened prerequist: [create a new ROS package](http://wiki.ros.org/ROS/Tutori
         └── ServiceRROS.srv  
 
 ### Required directories and files
-- include
-- src 
+- include (dir)
+- src (dir)
 - CMakeLists.txt  
 - package.xml 
-- .rosinstall
 - .gitignore
 - LICENSE
 - README.md
 
-### Recommended directories
-- launch
-- src/demo
-- src/test
-- src/utilities
+### Recommended directories and files
+- launch (dir)
+- src/demo (dir)
+- src/test (dir)
+- src/utilities (dir)
+- .rosinstall
 
 
 ## Change Package Name
@@ -62,4 +63,4 @@ If you want to change the package name, here are what you should change:
 - directory name under include folder  
   `include/[new package name]`
 
-or you can just replace all `rros_template_repo` with `[new package name]`
+or just replace all `rros_template_repo` with `[new package name]`
