@@ -5,7 +5,7 @@ import rospy
 # from A import B
 
 def main(args=None):
-  rospy.init_node('/* node_name */')
+  rospy.init_node('rros_node')
   rospy.spin()
 
 
