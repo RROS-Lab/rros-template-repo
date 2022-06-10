@@ -145,7 +145,6 @@ add_executable(rros_demo
   src/demo/rros_demo.cpp
 )
 
-
 # utility files
 add_executable(rros_utility 
   src/utilities/rros_utility.cpp
@@ -248,6 +247,10 @@ target_link_libraries(unit_test
 #############
 ## Testing ##
 #############
+
+## Learing Resources: 
+## https://personalrobotics.cs.washington.edu/software/unit-testing/
+## https://ut-ims-robotics.github.io/ros_training/html/day3/workshop_2.html
 
 ## Add gtest based cpp test target and link libraries
 # catkin_add_gtest(${PROJECT_NAME}-test test/test_rros_template_repo.cpp)
